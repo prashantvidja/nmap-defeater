@@ -2,7 +2,7 @@
 
 # Nmap OS Fingerprinting Defeater  is for research and education purpose only.
 
-if [ ! -d "$tcp_sign"]
+if [ ! -d ./tcp_sign ]
 then
 	mkdir tcp_sign
 	cp /proc/sys/net/ipv4/ip_default_ttl ./tcp_sign/ip_default_ttl_backup
